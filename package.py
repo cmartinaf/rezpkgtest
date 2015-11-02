@@ -6,16 +6,11 @@ description = \
     """
     Maya package for dpool.
     """
-
-build_requires = [
-]
-
-variants = [
-]
 requires = [
+    "python-2.7"
 ]
 
-uuid = "dpoolmaya"
+uuid = "dpoolmaya.%s" % version
 
 def commands():
     pass
