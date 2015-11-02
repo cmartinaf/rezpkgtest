@@ -10,7 +10,7 @@ requires = [
     "python-2.7"
 ]
 
-uuid = "dpoolmaya.%s" % version
+uuid = "dpoolmaya.1.0.0"
 
 def commands():
     pass
